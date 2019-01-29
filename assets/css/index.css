@@ -1,0 +1,106 @@
+@font-face {
+  font-family: leela;
+  src: url(assets/fonts/leelawad.ttf);
+}
+
+
+
+/* whatWeDo */
+
+
+
+#shadowMas {
+  box-shadow: 5px 5px rgba(128, 128, 128, 0.24);
+}
+
+.product-info {
+  padding: 20px;
+
+}
+
+.product-info h3 {
+  color: #337ab7;
+  font-family: leela;
+}
+
+.product-info p {
+  text-align: justify;
+}
+
+.product-wrap {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+#whatWeDo h1 {
+  text-align: center;
+  font-size: 50px;
+  word-spacing: 5px;
+  font-family: Geneva;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.651);
+}
+
+#whatWeDo article {
+  text-align: justify;
+  padding: 3% 15% 0% 15%;
+  font-size: 15px;
+}
+
+#whatWeDo #btn {
+  text-align: center;
+}
+
+#whatWeDo .btn {
+  background-color: rgba(0, 0, 0, 0.651);
+  color: white;
+}
+
+@media (min-width:300px) and (max-width: 1024px) {
+  #serv .col-md-6 {
+    padding-bottom: 10%;
+  }
+
+  #serv2 .col-md-6 {
+    padding-bottom: 10%;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Portfolio */
+.port #Rcorner {
+  border-bottom-right-radius: 30%;
+}
+
+.port #Lcorner {
+  border-bottom-right-radius: 30%;
+}
+
+.port #DRcorner {
+  border-bottom-left-radius: 30%;
+}
+
+.port #DLcorner {
+  border-bottom-left-radius: 30%;
+}
+
+/* ********************* */
+@media (min-width: 992px) {
+  #teamSmall {
+    margin-left: 5%;
+  }
+}
+
+.figure-caption.figTextEdge {
+  width: 200px;
+  margin-left: 50px;
+  text-align: justify;
+  color: white;
+}

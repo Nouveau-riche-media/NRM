@@ -31,15 +31,19 @@ img{
 
 .pass #Rcorner{
   border-top-left-radius: 30%;
+  width: 80%;
 }
 .pass #Lcorner{
   border-top-right-radius: 30%;
+  width: 80%;
 }
 .pass #DRcorner{
   border-bottom-left-radius: 30%;
+  width: 80%;
 }
 .pass #DLcorner{
   border-bottom-right-radius: 30%;
+  width: 80%;
 }
 
 body{
